@@ -1,0 +1,333 @@
+{
+  "version": "v2.0",
+  "data": [
+
+    {
+      "title": "Machine Learning Context",
+      "paragraphs": [
+          {
+              "context": "Machine learning is a subset of artificial intelligence (AI) that focuses on the development of computer programs that can learn and improve over time without being explicitly programmed. It is based on the idea that systems can learn from data, identify patterns, and make decisions with minimal human intervention. Machine learning algorithms can be categorized into supervised, unsupervised, and reinforcement learning, each serving different purposes. Supervised learning involves training a model on labeled data, where the algorithm learns to map input to output based on example input-output pairs. Unsupervised learning aims to find hidden patterns or intrinsic structures in unlabeled data, while reinforcement learning focuses on training agents to interact with an environment and maximize cumulative rewards through trial and error. Machine learning has diverse applications across various domains, including healthcare, finance, image recognition, natural language processing, and recommendation systems.",
+              "qas": [
+                  {
+                      "question": "What is machine learning?",
+                      "id": "001",
+                      "answers": [
+                          {
+                              "text": "Machine learning is a subset of artificial intelligence (AI) that focuses on the development of computer programs that can learn and improve over time without being explicitly programmed.",
+                              "answer_start": 0
+                          }
+                      ],
+                      "is_impossible": false
+                  },
+                  {
+                      "question": "What are the three main categories of machine learning?",
+                      "id": "002",
+                      "answers": [
+                          {
+                              "text": "",
+                              "answer_start": 180
+                          }
+                      ],
+                      "is_impossible": false
+                  },
+                  {
+                      "question": "What is the goal of supervised learning?",
+                      "id": "003",
+                      "answers": [
+                          {
+                              "text": "To train a model on labeled data",
+                              "answer_start": 387
+                          }
+                      ],
+                      "is_impossible": false
+                  }
+              ]
+          }
+      ]
+  },
+  {
+    "title": "Anne Frank and Her Diary",
+    "paragraphs": [
+      {
+        "context": "Anneliese Marie ‘Anne’ Frank (12 June 1929 – February/March 1945) was a German-born Jewish girl who wrote while in hiding with her family and four friends in Amsterdam during the German occupation of the Netherlands in World War II. Her family had moved to Amsterdam after the Nazis gained power in Germany but were trapped when the Nazi occupation extended into the Netherlands. As persecutions against the Jewish population increased, the family went into hiding in July 1942 in hidden rooms in her father Otto Frank’s office building. After two years in hiding, the group was betrayed and transported to the concentration camp system where Anne died of typhus in Bergen-Belsen within days of her sister, Margot Frank. Her father, Otto, the only survivor of the group, returned to Amsterdam after the war ended, to find that her diary had been saved. Convinced that it was a unique record, he took action to have it published in English under the name The Diary of a Young Girl.",
+        "qas": [
+          {
+            "question": "When did Anne Frank go into hiding?",
+            "id": "007",
+            "answers": [
+              {
+                "text": "July 1942",
+                "answer_start": 359
+              }
+            ],
+            "is_impossible": false
+          },
+          {
+            "question": "What happened to Anne Frank and her family after they were discovered in hiding?",
+            "id": "008",
+            "answers": [
+              {
+                "text": "They were transported to the concentration camp system where Anne died of typhus in Bergen-Belsen within days of her sister, Margot Frank.",
+                "answer_start": 447
+              }
+            ],
+            "is_impossible": false
+          },
+          {
+            "question": "Who was the only survivor of Anne Frank's family?",
+            "id": "009",
+            "answers": [
+              {
+                "text": "Her father, Otto Frank",
+                "answer_start": 523
+              }
+            ],
+            "is_impossible": false
+          }
+        ]
+      },
+      {
+        "context": "The diary was given to Anne Frank for her thirteenth birthday and chronicles the events of her life from 12 June 1942 until its final entry of 1 August 1944. It was eventually translated from its original Dutch into many languages and became one of the world’s most widely read books. There have also been several films, television and theatrical productions, and even an opera, based on the diary. Described as the work of a mature and insightful mind, the diary provides an intimate examination of daily life under Nazi occupation. Anne Frank has become one of the most renowned and discussed of the Holocaust victims.",
+        "qas": [
+          {
+            "question": "When was Anne Frank's diary given to her?",
+            "id": "010",
+            "answers": [
+              {
+                "text": "For her thirteenth birthday",
+                "answer_start": 4
+              }
+            ],
+            "is_impossible": false
+          },
+          {
+            "question": "What does Anne Frank's diary chronicle?",
+            "id": "011",
+            "answers": [
+              {
+                "text": "The events of her life from 12 June 1942 until its final entry of 1 August 1944.",
+                "answer_start": 75
+              }
+            ],
+            "is_impossible": false
+          },
+          {
+            "question": "What is Anne Frank's diary known as?",
+            "id": "012",
+            "answers": [
+              {
+                "text": "The Diary of a Young Girl",
+                "answer_start": 201
+              }
+            ],
+            "is_impossible": false
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "title": "Advanced JavaScript Concepts",
+    "paragraphs": [
+      {
+        "context": "Closures occur when a function 'closes over' its surrounding lexical scope, retaining access to its outer scope even after that scope has finished executing. They are crucial for creating private variables and maintaining state in functional programming.",
+        "qas": [
+          {
+            "question": "What are closures?",
+            "id": "013",
+            "answers": [
+              {
+                "text": "Closures occur when a function 'closes over' its surrounding lexical scope, retaining access to its outer scope even after that scope has finished executing.",
+                "answer_start": 0
+              }
+            ],
+            "is_impossible": false
+          },
+          {
+            "question": "Why are closures important?",
+            "id": "014",
+            "answers": [
+              {
+                "text": "They are crucial for creating private variables and maintaining state in functional programming.",
+                "answer_start": 88
+              }
+            ],
+            "is_impossible": false
+          }
+        ]
+      },
+      {
+        "context": "Asynchronous programming is fundamental for dealing with operations like fetching data from servers or handling user input. Promises provide a clean syntax for handling asynchronous operations, while Async/Await offers a more synchronous-looking syntax built on top of promises.",
+        "qas": [
+          {
+            "question": "Why is asynchronous programming important?",
+            "id": "015",
+            "answers": [
+              {
+                "text": "It is fundamental for dealing with operations like fetching data from servers or handling user input.",
+                "answer_start": 0
+              }
+            ],
+            "is_impossible": false
+          },
+          {
+            "question": "What are Promises?",
+            "id": "016",
+            "answers": [
+              {
+                "text": "Promises provide a clean syntax for handling asynchronous operations.",
+                "answer_start": 78
+              }
+            ],
+            "is_impossible": false
+          },
+          {
+            "question": "What is Async/Await?",
+            "id": "017",
+            "answers": [
+              {
+                "text": "Async/Await offers a more synchronous-looking syntax built on top of promises.",
+                "answer_start": 133
+              }
+            ],
+            "is_impossible": false
+          }
+        ]
+      },
+      {
+        "context": "JavaScript is a prototype-based language, and understanding how prototypes work is essential for effective inheritance and object-oriented programming. Prototype chaining allows objects to inherit properties and methods from other objects.",
+        "qas": [
+          {
+            "question": "What is JavaScript based on?",
+            "id": "018",
+            "answers": [
+              {
+                "text": "JavaScript is a prototype-based language.",
+                "answer_start": 0
+              }
+            ],
+            "is_impossible": false
+          },
+          {
+            "question": "Why is understanding prototypes important?",
+            "id": "019",
+            "answers": [
+              {
+                "text": "It is essential for effective inheritance and object-oriented programming.",
+                "answer_start": 56
+              }
+            ],
+            "is_impossible": false
+          }
+        ]
+      },
+      {
+        "context": "The event loop is the mechanism that allows JavaScript to perform non-blocking I/O operations, making it suitable for handling concurrent tasks. Understanding the event loop is crucial for writing efficient, non-blocking code.",
+        "qas": [
+          {
+            "question": "What is the event loop?",
+            "id": "020",
+            "answers": [
+              {
+                "text": "The event loop is the mechanism that allows JavaScript to perform non-blocking I/O operations.",
+                "answer_start": 0
+              }
+            ],
+            "is_impossible": false
+          },
+          {
+            "question": "Why is understanding the event loop crucial?",
+            "id": "021",
+            "answers": [
+              {
+                "text": "It is crucial for writing efficient, non-blocking code.",
+                "answer_start": 109
+              }
+            ],
+            "is_impossible": false
+          }
+        ]
+      },
+      {
+        "context": "Functional programming concepts such as higher-order functions, pure functions, and immutability are increasingly important in modern JavaScript development. Libraries like lodash and Ramda provide utilities for functional programming in JavaScript.",
+        "qas": [
+          {
+            "question": "What are some functional programming concepts in JavaScript?",
+            "id": "022",
+            "answers": [
+              {
+                "text": "Higher-order functions, pure functions, and immutability",
+                "answer_start": 0
+              }
+            ],
+            "is_impossible": false
+          },
+          {
+            "question": "Why are functional programming concepts important in JavaScript?",
+            "id": "023",
+            "answers": [
+              {
+                "text": "They are increasingly important in modern JavaScript development.",
+                "answer_start": 59
+              }
+            ],
+            "is_impossible": false
+          }
+        ]
+      },
+      {
+        "context": "JavaScript modules enable better code organization and encapsulation. Module bundlers like Webpack or Parcel allow developers to bundle multiple modules into a single file for efficient delivery to the browser.",
+        "qas": [
+          {
+            "question": "What do JavaScript modules enable?",
+            "id": "024",
+            "answers": [
+              {
+                "text": "Better code organization and encapsulation.",
+                "answer_start": 0
+              }
+            ],
+            "is_impossible": false
+          },
+          {
+            "question": "What are module bundlers?",
+            "id": "025",
+            "answers": [
+              {
+                "text": "Module bundlers like Webpack or Parcel allow developers to bundle multiple modules into a single file for efficient delivery to the browser.",
+                "answer_start": 56
+              }
+            ],
+            "is_impossible": false
+          }
+        ]
+      },
+      {
+        "context": "ECMAScript 6 (ES6) introduced many new features to JavaScript, including arrow functions, template literals, destructuring assignment, classes, and more. Understanding and utilizing these features can greatly enhance code readability and maintainability.",
+        "qas": [
+          {
+            "question": "What is ECMAScript 6 (ES6)?",
+            "id": "026",
+            "answers": [
+              {
+                "text": "ECMAScript 6 (ES6) introduced many new features to JavaScript.",
+                "answer_start": 0
+              }
+            ],
+            "is_impossible": false
+          },
+          {
+            "question": "Why is understanding ES6 important?",
+            "id": "027",
+            "answers": [
+              {
+                "text": "Understanding and utilizing ES6 features can greatly enhance code readability and maintainability.",
+                "answer_start": 64
+              }
+            ],
+            "is_impossible": false
+          }
+        ]
+      }]
+}]}
